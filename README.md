@@ -14,6 +14,7 @@
     to fix the issue: _kernel\_require.rb:54:in `require': cannot load such file -- vagrant-share/helper/api (LoadError)_
 
 - Configure VAGRANT_HOME to store the built vagrant box
+  `export VAGRANT_HOME=...`
 - Add the built vagrant box to VAGRANT_HOME/boxes:
   `vagrant box add -name ubuntu-16.04-amd64-virtualbox ubuntu-16.04-amd64-virtualbox.box`
 
